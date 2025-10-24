@@ -192,7 +192,6 @@ int main(int argc, char *argv[])
 
   curl_global_cleanup();
 
-  std::cout << "Press Enter to exit...";
-  std::cin.get();
+  system("pause");
   return 0;
 }
