@@ -191,5 +191,8 @@ int main(int argc, char *argv[])
   displayWeather(weather);
 
   curl_global_cleanup();
+
+  std::cout << "Press Enter to exit...";
+  std::cin.get();
   return 0;
 }
